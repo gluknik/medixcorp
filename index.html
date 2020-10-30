@@ -17,13 +17,13 @@
         <div class="row site-header__top-wrapper">
           <div class="container">
             <div class="row site-header__top justify-content-between align-items-center">
-              <div class="col-4">
+              <div class="col-4 site-header__logo-column">
                 <a class="site-header__logo-wrapper" href="/">
                   <img class="site-header__logo" src="img/logo.svg" width="319" height="66" alt="Medixcorp Logo">
                 </a>
               </div>
               <div class="col-8 text-right site-header__links">
-                <a class="site-header__phone" href="tel:+441230703620">+44 (0)1230 7036 20</a>
+                <a class="site-header__phone" href="tel:+441230703620">+44 (0) 1230 7036 20</a>
                 <a class="site-header__login" href="#">Login</a>
               </div>
             </div>
@@ -40,7 +40,7 @@
                       <a class="site-menu__link" href="#">Home</a>
                     </li>
                     <li class="site-menu__item">
-                      <a class="site-menu__link" href="#">Not Just Eligibilty</a>
+                      <a class="site-menu__link" href="#">Not Just Eligibility</a>
                     </li>
                     <li class="site-menu__item">
                       <a class="site-menu__link" href="#">The Components</a>
@@ -69,7 +69,7 @@
                 <div class="row justify-content-center">
                   <div class="col-10">
                     <p class="hero__description"> 
-                      New and innovative treatment options are constantly being introduced into the medical field as a result o rigorous medical research and rapid technological advance.<br>The abundance of options complicates achieving quality medical care due to the difficulty of sifting through the slew of available treatments.<br>This often results in the prescription of unnecessary treatments and procedures either due to a lack of available information or by succumbing to financial considerations. 
+                      New and innovative treatment options are constantly being introduced into the medical field as a result of rigorous medical research and rapid technological advance.<br>The abundance of options complicates achieving quality medical care due to the difficulty of sifting<br>through the slew of available treatments.<br>This often results in the prescription of unnecessary treatments and<br>procedures either due to a lack of available information or by succumbing to financial considerations. 
                     </p>
                   </div>
                 </div>
@@ -79,13 +79,15 @@
         </section>
         <section class="row site-main__features features__wrapper">
           <div class="container features__container">
-            <div class="col-12 features__heading-wrapper text-center">
-              <h2 class="features__heading-title">New Comprehancive Medical Claims Management</h2>
+            <div class="col-12 features__heading-wrapper text-center px-0">
+              <h2 class="features__heading-title">New Comprehansive Medical Claims Management</h2>
               <p class="features__heading-text">Each medical review carried out by MedixCorp consists of four main components.</p>
               <div class="row features__list-row">
                 <div class="col-6 features__item-wrapper">
                   <article class="features__item">
-                    <img class="features__item-icon" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
+                    <div class="features__item-icon-wrapper d-flex text-center">
+                      <img class="features__item-icon mx-auto mt-auto" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
+                    </div>
                     <h3 class="features__item-heading">Medical Eligibility</h3>
                     <p class="features__item-text">
                       Pertains to the review of medical policy definitions such as chronic, cosmetic or experimental. These definitions are constantly changing and often unclear. Applying them to a specific claim requires medical .expertise and a deep understanding of the patient's condition Preforming this check is an essential part of the Medix claims review. 
@@ -94,33 +96,38 @@
                 </div>
                 <div class="col-6 features__item-wrapper">
                   <article class="features__item">
-                    <img class="features__item-icon" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
+                    <div class="features__item-icon-wrapper d-flex text-center">
+                      <img class="features__item-icon mx-auto mt-auto" src="img/icon-doc.svg" width="78" height="98" alt="Eye Icon">
+                    </div>
                     <h3 class="features__item-heading">Medical Validity</h3>
                     <p class="features__item-text">
                       Ensures that the proposed treatment is in fact recognised as a valid option for the patient's diagnosis and condition. Our physicians assess each claim and apply to it experience, expertise and internationally recognised treatment guidelines. 
                     </p>
                   </article>
                 </div>
-
-                <div class="row features__list-row">
-                  <div class="col-6 features__item-wrapper">
-                    <article class="features__item">
-                      <img class="features__item-icon" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
-                      <h3 class="features__item-heading">Medical Necessity</h3>
-                      <p class="features__item-text">
-                        Includes assessing whether or not a valid treatment is necessary given the patient's individual situation. As with validity, international guidelines are applied as well as specialist expertise and experience. 
-                      </p>
-                    </article>
-                  </div>
-                  <div class="col-6 features__item-wrapper">
-                    <article class="features__item">
-                      <img class="features__item-icon" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
-                      <h3 class="features__item-heading">Length of Stay Management</h3>
-                      <p class="features__item-text">
-                        Our necessity and validity review applies to specific treatments and inpatient stay alike. Through this method, we are able to strike an optimal balance, keeping the patient admitted while required, and discharging immediately thereafter in order to prevent further complications. 
-                      </p>
-                    </article>
-                  </div>
+              </div>
+              <div class="row features__list-row">
+                <div class="col-6 features__item-wrapper">
+                  <article class="features__item">
+                    <div class="features__item-icon-wrapper d-flex text-center">
+                      <img class="features__item-icon mx-auto mt-auto" src="img/icon-dc.svg" width="81" height="104" alt="Eye Icon">
+                    </div>
+                    <h3 class="features__item-heading">Medical Necessity</h3>
+                    <p class="features__item-text">
+                      Includes assessing whether or not a valid treatment is necessary given the patient's individual situation. As with validity, international guidelines are applied as well as specialist expertise and experience. 
+                    </p>
+                  </article>
+                </div>
+                <div class="col-6 features__item-wrapper">
+                  <article class="features__item">
+                    <div class="features__item-icon-wrapper d-flex text-center">
+                      <img class="features__item-icon mx-auto mt-auto" src="img/icon-clock.svg" width="97" height="97" alt="Eye Icon">
+                    </div>
+                    <h3 class="features__item-heading">Length of Stay Management</h3>
+                    <p class="features__item-text">
+                      Our necessity and validity review applies to specific treatments and inpatient stay alike. Through this method, we are able to strike an optimal balance, keeping the patient admitted while required, and discharging immediately thereafter in order to prevent further complications. 
+                    </p>
+                  </article>
                 </div>
               </div>
             </div>
