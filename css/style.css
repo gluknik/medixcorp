@@ -375,6 +375,7 @@ footer {
 
 .site-menu__item.login .site-header__login {
   display: flex;
+  justify-content: center;
 
   margin: 0;
 
@@ -402,10 +403,12 @@ footer {
   .site-menu__list {
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
   }
 
   .site-menu__item {
     margin: 0;
+    align-self: stretch;
   }
 
   .site-header__menu-wrapper {
@@ -456,6 +459,10 @@ footer {
     background-position-x: 67%;
     background-position-y: 79.5%;
     background-size: initial;
+  }
+
+  .site-menu__link {
+    justify-content: center;
   }
 }
 
