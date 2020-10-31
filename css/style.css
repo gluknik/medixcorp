@@ -301,6 +301,8 @@ footer {
 }
 
 .nav-toggle__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
   height: 60px;
 }
 
@@ -558,7 +560,7 @@ footer {
   
   .features__heading-title {
     margin-bottom: 0;
-    
+
     line-height: 30px;
   }
 
