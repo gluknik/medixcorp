@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
 
   <body>
@@ -17,14 +18,21 @@
         <div class="row site-header__top-wrapper">
           <div class="container">
             <div class="row site-header__top justify-content-between align-items-center">
-              <div class="col-4 site-header__logo-column">
+              <div class="order-2 order-md-1 col-6 col-md-4 site-header__logo-column">
                 <a class="site-header__logo-wrapper" href="/">
                   <img class="site-header__logo" src="img/logo.svg" width="319" height="66" alt="Medixcorp Logo">
                 </a>
               </div>
-              <div class="col-8 text-right site-header__links">
-                <a class="site-header__phone" href="tel:+441230703620">+44 (0) 1230 7036 20</a>
+              <div class="order-1 order-md-3 col-3 col-md-8 text-md-right site-header__links">
+                <a class="site-header__phone" href="tel:+441230703620"><span class="site-header__phone-number d-none d-md-inline">+44 (0) 1230 7036 20</span></a>
                 <a class="site-header__login" href="#">Login</a>
+              </div>
+              <div class="order-3 col-3 d-md-none text-right site-header__mobile-nav">
+                <div class="site-header__nav-toggle nav-toggle__wrapper">
+                  <button class="nav-toggle navbar-toggle" aria-label="Menu toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="nav-toggle__dash"></span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>  
@@ -34,7 +42,7 @@
           <div class="container">
             <div class="row site-header__menu">
               <div class="col-12">
-                <nav class="site-menu">
+                <nav class="site-menu navbar-collapse" id="navbar">
                   <ul class="site-menu__list">
                     <li class="site-menu__item">
                       <a class="site-menu__link" href="#">Home</a>
@@ -65,11 +73,11 @@
           <div class="col-12 px-0 text-center align-self-center">
               <!-- <img class="hero__img" src="img/top-img.jpg" width="1920" height="600" alt="Claims Managemen Hero Image"> -->
               <div class="container hero__info-wrapper">
-                <h1 class="hero__tittle">The New Generation Of Claims Management</h1>
+                <h1 class="hero__tittle">The New Generation of <br class="d-md-none">Claims Management</h1>
                 <div class="row justify-content-center">
-                  <div class="col-10">
+                  <div class="col-11 col-md-10 px-1 px-sm-3">
                     <p class="hero__description"> 
-                      New and innovative treatment options are constantly being introduced into the medical field as a result of rigorous medical research and rapid technological advance.<br>The abundance of options complicates achieving quality medical care due to the difficulty of sifting<br>through the slew of available treatments.<br>This often results in the prescription of unnecessary treatments and<br>procedures either due to a lack of available information or by succumbing to financial considerations. 
+                      New and innovative treatment options are constantly being introduced into the medical field as a result of rigorous medical research and rapid technological advance.<span class="d-none d-sm-inline"><br>The abundance of options complicates achieving quality medical care due to the difficulty of sifting<br class="d-none d-md-block">through the slew of available treatments.</span><br><span class="d-none d-md-block">This often results in the prescription of unnecessary treatments and<br>procedures either due to a lack of available information or by succumbing to financial considerations.</span> 
                     </p>
                   </div>
                 </div>
@@ -80,10 +88,10 @@
         <section class="row site-main__features features__wrapper">
           <div class="container features__container">
             <div class="col-12 features__heading-wrapper text-center px-0">
-              <h2 class="features__heading-title">New Comprehansive Medical Claims Management</h2>
+              <h2 class="features__heading-title">New Comprehansive <br class="d-md-none">Medical Claims Management</h2>
               <p class="features__heading-text">Each medical review carried out by MedixCorp consists of four main components.</p>
               <div class="row features__list-row">
-                <div class="col-6 features__item-wrapper">
+                <div class="col-12 col-sm-6 features__item-wrapper">
                   <article class="features__item">
                     <div class="features__item-icon-wrapper d-flex text-center">
                       <img class="features__item-icon mx-auto mt-auto" src="img/icon-eye.svg" width="147" height="71" alt="Eye Icon">
@@ -94,7 +102,7 @@
                     </p>
                   </article>
                 </div>
-                <div class="col-6 features__item-wrapper">
+                <div class="col-12 col-sm-6 features__item-wrapper">
                   <article class="features__item">
                     <div class="features__item-icon-wrapper d-flex text-center">
                       <img class="features__item-icon mx-auto mt-auto" src="img/icon-doc.svg" width="78" height="98" alt="Eye Icon">
@@ -107,23 +115,23 @@
                 </div>
               </div>
               <div class="row features__list-row">
-                <div class="col-6 features__item-wrapper">
+                <div class="col-12 col-sm-6 features__item-wrapper">
                   <article class="features__item">
                     <div class="features__item-icon-wrapper d-flex text-center">
                       <img class="features__item-icon mx-auto mt-auto" src="img/icon-dc.svg" width="81" height="104" alt="Eye Icon">
                     </div>
-                    <h3 class="features__item-heading">Medical Necessity</h3>
+                    <h3 class="features__item-heading">Medical <br class="d-none d-sm-block d-lg-none">Necessity</h3>
                     <p class="features__item-text">
                       Includes assessing whether or not a valid treatment is necessary given the patient's individual situation. As with validity, international guidelines are applied as well as specialist expertise and experience. 
                     </p>
                   </article>
                 </div>
-                <div class="col-6 features__item-wrapper">
+                <div class="col-12 col-sm-6 features__item-wrapper">
                   <article class="features__item">
                     <div class="features__item-icon-wrapper d-flex text-center">
                       <img class="features__item-icon mx-auto mt-auto" src="img/icon-clock.svg" width="97" height="97" alt="Eye Icon">
                     </div>
-                    <h3 class="features__item-heading">Length of Stay Management</h3>
+                    <h3 class="features__item-heading">Length of Stay <br class="d-none d-sm-block d-lg-none">Management</h3>
                     <p class="features__item-text">
                       Our necessity and validity review applies to specific treatments and inpatient stay alike. Through this method, we are able to strike an optimal balance, keeping the patient admitted while required, and discharging immediately thereafter in order to prevent further complications. 
                     </p>
@@ -138,9 +146,9 @@
   
     <footer></footer>
 
-    <script src="js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
