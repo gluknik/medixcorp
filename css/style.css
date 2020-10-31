@@ -279,24 +279,6 @@ h3 {
 footer {
   height: 60px;
 }
-/*
-.features__heading-wrapper::after {
-  content: "";
-
-  position: absolute;
-  top: 60.5%;
-  left: 50%;
-
-  display: block;
-  width: 30px;
-  height: 30px;
-
-  background-image: url(../img/sep-logo.svg);  
-  background-size: 30px;
-  
-  transform: translateX(-50%);
-}
-*/
 
 .features__list-row:first-of-type .features__item-wrapper:nth-of-type(2)::after {
   content: "";
@@ -617,14 +599,6 @@ footer {
   .features__item-heading {
     margin-bottom: 4px;
   }
-
-/*
-  .features__item-wrapper:first-of-type::after,
-  .features__list-row:first-of-type .features__item-wrapper::before,
-  .features__list-row:first-of-type .features__item-wrapper:nth-of-type(2)::after {
-    content: unset;
-  }
-  */
 
   .features__item-wrapper::before,
   .features__list-row:first-of-type .features__item-wrapper::before {
