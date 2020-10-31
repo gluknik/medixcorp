@@ -259,7 +259,9 @@ h3 {
 
 .features__list-row:nth-of-type(2) .features__item-wrapper:first-of-type::after {
   content: "";
+
   top: -17%;
+
   height: 119%;
 }
 
@@ -292,7 +294,7 @@ footer {
   width: 30px;
   height: 30px;
 
-  background-image: url(../img/sep-logo.svg);
+  background-image: url('../img/sep-logo.svg');
   background-size: 30px;
 
   transform: translateX(-50%);
@@ -370,11 +372,14 @@ footer {
 }
 
 .site-menu__item.login .site-header__login {
-  color: #ffffff;
-  margin: 0;
-  margin-top: 20px;
   display: flex;
+
+  margin: 0;
+
+  margin-top: 20px;
   margin-bottom: 20px;
+
+  color: #ffffff;
 }
 
 .site-menu__item.login {
@@ -403,8 +408,9 @@ footer {
 
   .site-header__menu-wrapper {
     position: absolute;
-    width: 100vw;
     z-index: 1;
+
+    width: 100vw;
   }
 
   .site-header__top {
@@ -429,8 +435,9 @@ footer {
   }
 
   .features__heading-title {
-    line-height: 45px;
     margin-bottom: 5px;
+
+    line-height: 45px;
   }
 
   .features__list-row:first-of-type {
@@ -439,6 +446,7 @@ footer {
 
   .features__item-wrapper:first-of-type::after {
     top: 1%;
+
     height: 102%;
   }
 
@@ -453,6 +461,7 @@ footer {
   .site-header__phone::before {
     width: 22px;
     height: 19px;
+
     background-size: 22px 19px;
   }
 
@@ -549,6 +558,7 @@ footer {
   
   .features__heading-title {
     margin-bottom: 0;
+    
     line-height: 30px;
   }
 
@@ -614,7 +624,7 @@ footer {
     width: 13px;
     height: 13px;
     
-    background-image: url(../img/sep-logo.svg);
+    background-image: url('../img/sep-logo.svg');
     background-size: 13px;
     
     transform: translateX(-50%);
